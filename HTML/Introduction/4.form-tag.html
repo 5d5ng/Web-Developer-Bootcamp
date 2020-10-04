@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form Demo</title>
+  </head>
+  <body>
+    <h1>Login</h1>
+
+    <!-- form이 가지는 속성 action,method form 태그는 블록형식-->
+    <!-- action - where the form send data to -->
+    <!-- method - What HTTP method (get/post) -->
+    <!-- <form action="http://www.wikipedia.org" method="GET"> 
+        <label for="">
+            username:
+      <input name="username" type="text" placeholder="username" />
+    </label>
+    <label for="">
+        password:
+      <input name="password" type="password" placeholder="password" />
+      <input type="submit" />
+    </label>
+    </form> -->
+
+    <form action="http://www.wikipedia.org" method="GET">
+      <label for="username">username:</label>
+      <input name="username" id="username" type="text" placeholder="username"
+       required />
+
+       <label for="email">email:</label>
+       <input name="email" id="email" type="email" placeholder="email"
+        required />
+
+      <label for="password">password:</label>
+      <input name="password" id="username" type="password" placeholder="password" required/>
+      <input type="submit" />
+    </form>
+  </body>
+</html>

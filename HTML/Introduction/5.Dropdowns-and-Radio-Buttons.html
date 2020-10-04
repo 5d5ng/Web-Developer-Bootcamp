@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Inputs Demo</title>
+  </head>
+  <body>
+    <p>Do you prefer cats or dogs?</p>
+    <form action="">
+      <label for="dogs">Dogs:</label>
+      <input name="petChoice" type="radio" id="dogs" value="dogs" />
+
+      <label for="cats">Cats:</label>
+      <input name="petChoice" type="radio" id="cats" value="cats" />
+
+      <!-- radio 박스를 둘중 하나만 선택하게 하려면 input에 같은 name을 지정해주면된다. -->
+      <!-- submit 되면 url에 해당결과가 전달된다. -->
+
+      <p>What's your favorite color?</p>
+
+      <select name="color" id="">
+        <option >Orange</option>
+        <option >Yellow</option>
+        <option >Red</option>
+      </select>
+
+      <textarea name="paragraph" id="" cols="30" rows="10"></textarea>
+      <button>Go!</button>
+    </form>
+  </body>
+</html>
