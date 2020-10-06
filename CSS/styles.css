@@ -1,0 +1,61 @@
+/* font-family */
+p  {
+    font-family: Arial;
+}
+h1{
+    font-family: Georgia;
+}
+/* font-size */
+
+body{
+    font-size: 10px;
+}
+h1{
+    /* font-size: 5.0em; */
+    font-family:Sansita Swashed;
+}
+p{
+    font-size: 2.0em;
+}
+
+span{
+    font-size:2.0em; 
+    /* 상대적인 크기 em */
+    /* span 태그가  p의 내부에 있으므로 4배 크기*/
+}
+
+/* font-weight */
+p{
+    font-weight: bold;
+}
+p{
+    font-weight: normal;
+}
+
+p{
+    /* 수치화할수도 있다 */
+    font-weight: 100;
+}
+
+/* line-height */
+/* 줄 사이 간격 조절 */
+p{
+    line-height: 1.5;
+}
+
+/* text-align */
+h1{
+    text-align: right;
+}
+
+p{
+    text-align: center;
+}
+
+/* text-decoration */
+p{
+    text-decoration: underline;
+}
+h1{
+    text-decoration: line-through;
+}

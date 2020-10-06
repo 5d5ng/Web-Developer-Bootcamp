@@ -1,0 +1,34 @@
+p{
+
+
+/* Content - Width and Height */
+
+width: 50%;
+/* %는 부모요소에 따른 비율을 말한다 */
+/* height: 300px; */
+
+
+/* Border */
+border : 2px solid blue;
+
+/* border-bottom: 10px; */
+
+
+/* Padding */
+
+padding: 10px;
+padding-left:40px;
+
+/* Margin */
+
+margin:100px;
+/* margin-top: 50px; */
+/* margin: 20px 40px 500px 10px; */
+/* top right bottom left */
+margin: 0 auto 0 auto;
+/* auto로 자동배치가 가능하다. */
+margin: 0 auto; 
+/* (top,bottom) (left,right) */
+margin: 50px 20px;
+
+}
